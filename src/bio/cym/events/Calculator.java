@@ -11,7 +11,6 @@ import java.util.stream.Collectors;
 
 public class Calculator {
     List<Event> array;
-    int index;
 
     public Calculator() {
         array = new ArrayList<>();
