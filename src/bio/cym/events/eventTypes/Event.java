@@ -1,4 +1,4 @@
-package bio.cym.events;
+package bio.cym.events.eventTypes;
 
 public abstract class Event {
     private int num;
@@ -6,7 +6,7 @@ public abstract class Event {
     public Event(int num) {
         this.num = num;
     }
-    abstract int calculate(int accomulated);
+    public abstract int calculate(int accomulated);
 
     public void setNum(int num) {
         this.num = num;

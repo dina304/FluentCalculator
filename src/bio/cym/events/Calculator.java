@@ -1,5 +1,10 @@
 package bio.cym.events;
 
+import bio.cym.events.eventTypes.AddEvent;
+import bio.cym.events.eventTypes.Event;
+import bio.cym.events.eventTypes.RemoveEvent;
+import bio.cym.events.eventTypes.SeedEvent;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;

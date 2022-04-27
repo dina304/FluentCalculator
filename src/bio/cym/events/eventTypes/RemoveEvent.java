@@ -1,4 +1,4 @@
-package bio.cym.events;
+package bio.cym.events.eventTypes;
 
 public class RemoveEvent extends Event {
 

@@ -1,6 +1,6 @@
 package bio.cym.events;
 
-public class MainCalculator {
+public class MainExecuter {
     public static void main(String[] args) {
         int result = new Calculator()
                 .Seed(10)
