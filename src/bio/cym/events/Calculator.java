@@ -39,8 +39,8 @@ public class Calculator {
     }
 
     public Calculator Redo() {
-        List<Event> activeEventList = this.array.stream().filter((event -> !event.isActive())).collect(Collectors.toList());
-        activeEventList.get(0).setActive(true);
+        List<Event> inActiveEventList = this.array.stream().filter((event -> !event.isActive())).collect(Collectors.toList());
+        inActiveEventList.get(0).setActive(true);
         return this;
     }
 
